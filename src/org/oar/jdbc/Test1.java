@@ -21,6 +21,7 @@ public class Test1 {
 			System.out.println("plateform created");
 			stmt.executeUpdate(qry);
 			System.out.println("row inserted");
+			System.out.println(789);
 			//System.out.println("row deleted");
 			//System.out.println("row updated");
 		} catch (ClassNotFoundException | SQLException e) {
